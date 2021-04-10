@@ -31,7 +31,7 @@ public class Puzzle
         }
        //this.ready=false;
         this.Puzzle=this.getRandom();
-        System.out.println(this.Puzzle);
+        //System.out.println(this.Puzzle);
         this.theWord=this.intoArray(this.Puzzle);
        this.createCensored(this.theWord);
     }
